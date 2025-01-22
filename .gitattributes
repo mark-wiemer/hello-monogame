@@ -1,0 +1,2 @@
+Icon.bmp filter=lfs diff=lfs merge=lfs -text
+Icon.ico filter=lfs diff=lfs merge=lfs -text
