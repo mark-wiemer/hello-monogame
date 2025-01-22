@@ -1,12 +1,12 @@
 # Hello MonoGame
 
-Did you know MonoGame is the engine behind Stardew Valley and Celeste? And it's in C#, everyone's favorite language?
+Did you know [MonoGame](https://monogame.net/) is the engine behind Stardew Valley and Celeste? And it's in C#, everyone's favorite language?
 
 I've got to give this a try!
 
 ## Setup
 
-1. Install git and VS Code
+1. Install git, VS Code, and .NET 8
 1. Install Git LFS
 1. Install the recommended extensions, especially C# Dev Kit
 1. Open Game1.cs
