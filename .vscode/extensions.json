@@ -6,6 +6,7 @@
     "github.vscode-pull-request-github",
     "eamodio.gitlens",
     "tyriar.sort-lines",
-    "ms-dotnettools.csdevkit"
+    "ms-dotnettools.csdevkit",
+    "r88.monogame"
   ]
 }
