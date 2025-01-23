@@ -5,6 +5,7 @@
     "wmaurer.change-case",
     "github.vscode-pull-request-github",
     "eamodio.gitlens",
-    "tyriar.sort-lines"
+    "tyriar.sort-lines",
+    "ms-dotnettools.csdevkit"
   ]
 }
