@@ -45,7 +45,30 @@ public class HelloMonogame : Game
         )
             Exit();
 
-        // TODO: Add your update logic here
+        // Amount to move the ball
+        float ballDelta = ballSpeed * (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+        var kstate = Keyboard.GetState();
+
+        if (kstate.IsKeyDown(Keys.Up))
+        {
+            ballPosition.Y -= ballDelta;
+        }
+
+        if (kstate.IsKeyDown(Keys.Down))
+        {
+            ballPosition.Y += ballDelta;
+        }
+
+        if (kstate.IsKeyDown(Keys.Left))
+        {
+            ballPosition.X -= ballDelta;
+        }
+
+        if (kstate.IsKeyDown(Keys.Right))
+        {
+            ballPosition.X += ballDelta;
+        }
 
         base.Update(gameTime);
     }
